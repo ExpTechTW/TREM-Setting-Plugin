@@ -9,7 +9,7 @@ class Plugin {
     const settingButton = document.querySelector('#setting');
 	if(!settingButton) return;
     settingButton.style.display = 'flex';
-    logger.info("Loading Setting Button plugin...");
+    logger.info("Successfully show Setting Button!");
   }
 }
 
